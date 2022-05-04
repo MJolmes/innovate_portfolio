@@ -7,8 +7,8 @@ for i in alphabet:
     print(i)
 
 
-response = int(input("Please choose from 1 to 26: "))
-if response < 27:
-    print("yes")
-    # alphabet == nums
-    # print(f"{nums[input]}")
+rand_num = (int)(input("Pick a number between 1 and 25.."))
+
+def rand_letter():
+    print(alphabet[rand_num])
+rand_letter()
