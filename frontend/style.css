@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* @font-face {
+    font-family: rupi;
+    src: url(Rumpi.ttf);
+} */
+
+
+
+
+body {
+    background-color: rgb(255, 255, 255)
+
+}
+
+/* This *{ effects everything */
+/* *{
+    background-color: antiquewhite;
+} */
+
+h1,h2,h3 {
+    color:gold
+}
+
+/* List + paragraphs in list */
+li {
+    color: red
+}
+
+/* Class */ 
+/* <h3 class="fancy">Section3</h3> */
+.fancy{
+    color: blueviolet;
+}
+
+/* ID */
+/* <a id="section_1"> */
+#section_1{
+    color: darkgreen;
+}
+
+/* Div ID */
+/* This ID effects <div id="buttons"></div> */
+#navbar>a{
+    color: rgb(20, 151, 92);
+}
+
+#navbar a:hover{
+    color: peru;
+}
+
+img{
+    width:25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Wrap text around an image */
+/* img{
+    float: left;
+} */
+#first_section{
+    background-color: cornsilk;
+    width:75%;
+    border: 5px rgb(0, 0, 0);
+}
+
+#second_section{
+    background-color: cornsilk;
+    width:75%;
+    border: 5px rgb(0, 0, 0);
+}
+
+#third_section{
+    background-color: cornsilk;
+    width:75%;
+    border: 5px rgb(0, 0, 0);
+    
+}
+
+p1 {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    
+}
+
+p2 {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+
+p3 {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+
