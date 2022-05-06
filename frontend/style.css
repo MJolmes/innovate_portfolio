@@ -1,56 +1,147 @@
+    /* Using a font from url */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 *{
     font-family: 'Roboto', sans-serif;
 }
 
+    /* Using a font from local file */
 /* @font-face {
     font-family: rupi;
     src: url(Rumpi.ttf);
 } */
+header{
+    width: 100%;
+}
+#headblock{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+h1{
+    color: black;
+}
+#menublock{
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Div ID */
+/* This ID effects the children of <div id="navbar"></div> */
+#navbar{
+    height: 80%;
+    width: 80%;
+    background-color: gold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar a:hover{
+    
+    color: peru;
+}
 
-
-
+#nav_box1{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    order: 1;
+}
+#nav_box2{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    order: 1;
+}
+#nav_box3{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    order: 1;
+}
+#nav_box4{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    order: 3;
+    
+}
+#menu_1{
+    color: rgb(255, 0, 0);
+}
+#menu_2{
+    color: rgb(255, 0, 0);
+}
+#menu_3{
+    color: rgb(255, 0, 0);
+}
+#menu_4{
+    color: rgb(255, 0, 0);
+}
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(255, 255, 255)
 
 }
-
 /* This *{ effects everything */
 /* *{
     background-color: antiquewhite;
 } */
-
-h1,h2,h3 {
-    color:gold
+h2,h3,h4 {
+    color: peru
 }
 
-/* List + paragraphs in list */
-li {
-    color: red
-}
+
 
 /* Class */ 
 /* <h3 class="fancy">Section3</h3> */
-.fancy{
+/* .fancy{
     color: blueviolet;
-}
+} */
 
 /* ID */
 /* <a id="section_1"> */
-#section_1{
-    color: darkgreen;
+
+
+/* Wrap text around an image */
+/* img{
+    float: left;
+} */
+#block_1{
+    background-color: cornsilk;
+    width:75%;
+    border: 5px rgb(0, 0, 0);
+}
+p1 {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    
 }
 
-/* Div ID */
-/* This ID effects <div id="buttons"></div> */
-#navbar>a{
-    color: rgb(20, 151, 92);
+#block_2{
+    background-color: cornsilk;
+    width:75%;
+    border: 5px rgb(0, 0, 0);
+}
+p2 {
+    color: rgb(0, 0, 0);
+    font-size: larger;
 }
 
-#navbar a:hover{
-    color: peru;
+
+/* List + paragraphs in list */
+li {
+    color: purple
 }
 
 img{
@@ -60,40 +151,16 @@ img{
     display: block;
 }
 
-/* Wrap text around an image */
-/* img{
-    float: left;
-} */
-#first_section{
+
+#block_3{
     background-color: cornsilk;
     width:75%;
     border: 5px rgb(0, 0, 0);
+    display:flex;
+    min-height: 100vh;
+    flex-direction: row;
+    text-align:center;  
 }
-
-#second_section{
-    background-color: cornsilk;
-    width:75%;
-    border: 5px rgb(0, 0, 0);
-}
-
-#third_section{
-    background-color: cornsilk;
-    width:75%;
-    border: 5px rgb(0, 0, 0);
-    
-}
-
-p1 {
-    color: rgb(0, 0, 0);
-    font-size: larger;
-    
-}
-
-p2 {
-    color: rgb(0, 0, 0);
-    font-size: larger;
-}
-
 p3 {
     color: rgb(0, 0, 0);
     font-size: larger;
