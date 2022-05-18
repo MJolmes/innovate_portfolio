@@ -1,4 +1,4 @@
-welcome = "Welcome to code nation."
+welcome = "Welcome to code nation"
 
 result = (len(welcome))
 

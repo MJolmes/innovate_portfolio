@@ -18,15 +18,3 @@ dict_of_cat.update({"Top_speed" : 900})
 # #         i = "None"
 
 # print(dict_of_cat)
-
-countries = {
-    "United Kingdom" : "London",
-    "France" : "Paris",
-    "Germany" : "Berlin",
-    "Spain" : "Madrid",
-    "Italy" : "Rome"
-}
-
-countries.setdefault("Mother Russia", "Moscow")
-
-print(countries)

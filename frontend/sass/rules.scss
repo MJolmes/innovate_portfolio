@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poiret+One&display=swap");
+// This page holds our rules and 
+// is imported to scss main styling page
+
+
+/* imported font families: "Poiret One", cursive; font-family: "Josefin Sans", sans-serif;    */
+
+// SASS
+$mainAccent:#ed254e;
+$secondaryAccent: #4f4db3; 
+$headFont: "Poiret One", cursive;
+$contentFont: "Josefin Sans", sans-serif;
+
+
+// MIXIN ARGUEMENT
+@mixin heading($special){
+  font-family: $headFont, cursive;
+  color: $special;
+  text-align: center;
+  margin-top: 0px;
+}
+// ($special) ^^above^^ passes variable into 'color: $special' ^^above^^,
+// so whenever '@include heading' is used(below) the color we want
+// is passed directly into the brackets
+
+// h3 {
+//     @include heading(purple);
+//     font-size: 2em;
+//   }
+// This would be on styling page

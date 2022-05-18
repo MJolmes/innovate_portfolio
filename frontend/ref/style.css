@@ -1,0 +1,54 @@
+.bg-light {
+    background-color: rgb(0, 136, 255) !important;
+}
+/* ^^ This !important makes my CSS override the Bootstrap !important ^^
+( Check browser inspect to see what bootstrap has labeled !important) */
+
+.button1 {
+    background-color: burlywood;
+    padding: 15px;
+    border: 2px solid grey;
+}
+
+.button2 {
+    background-color: burlywood;
+    padding: 15px;
+    border: 2px solid grey;
+    transition-duration: 0.5s;
+}
+
+.button2:hover{
+    background-color: greenyellow;
+    color: rgb(255, 255, 255);
+}
+
+.button3 {
+    background-color: burlywood;
+    padding: 15px;
+    border: 2px solid grey;
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px grey;
+}
+
+.button3:hover{
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    transform: translate(-2px);
+}
+
+.button3:active{
+    background-color: rgb(38, 54, 12);
+    color: white;
+    transform: translate(2px);
+    box-shadow: none;    
+}
+
+.button4 {
+    background-color: red;
+    padding: 15px;
+    border: 2px solid black;
+    opacity: 0.5;
+    cursor: not-allowed;
+}

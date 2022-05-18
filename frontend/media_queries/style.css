@@ -1,0 +1,29 @@
+.desk, .mobile {
+    display: none;
+}
+
+@media (orientation: landscape) {
+    body {
+        background-color: antiquewhite;
+        color: indigo;
+    }
+
+    .desk{
+        display: inline-block;
+    }
+}
+
+
+@media (orientation: portrait) {
+    body {
+        background-color: rgb(40, 15, 40);
+        color: white;
+    }
+
+    .mobile{
+        display: inline-block;
+    }
+    
+}
+
+

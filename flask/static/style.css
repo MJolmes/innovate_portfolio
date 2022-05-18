@@ -1,0 +1,24 @@
+body {
+    background-color: blueviolet;
+}
+
+head {
+    color: chocolate;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+footer {
+    color: aquamarine;
+}
+
+nav {
+    display: flex;
+}
+
+nav a:hover {
+    color: darkgoldenrod;
+}
